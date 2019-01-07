@@ -98,8 +98,12 @@ textarea {
    ========================================================================== */
 
 
-
-
+body, p{
+    font-family: 'Amatic SC', cursive;
+}
+h1,h2,h3{
+font-family: 'Fredericka the Great', cursive;
+}
 
 
 
