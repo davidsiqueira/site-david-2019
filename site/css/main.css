@@ -96,19 +96,45 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+html{
+    height:100%;
+    background: #fff;
+    background: -moz-linear-gradient(45deg, #ffecd8 0%,#b8c7e2 100%);
+    background: -webkit-linear-gradient(45deg, #ffecd8 0%,#b8c7e2 100%);
+    background: linear-gradient(45deg, #ffecd8 0%,#b8c7e2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf0f7', endColorstr='#ffe6d8',GradientType=1 );
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
 
 body, p{
     font-family: 'Amatic SC', cursive;
+    font-size:17pt;
 }
 h1,h2,h3{
 font-family: 'Fredericka the Great', cursive;
+font-weight: normal;
+}
+h1{margin-top:0;}
+h2{
+    margin-bottom:0;
+}
+
+.presentation.container{
+    max-width:600px;
+    padding:20% 40px;
+    margin:0 auto;
 }
 
 
-
-
-
+a{
+    color:#6f859a;
+    text-decoration:none;
+}
+a:hover{
+    background-color:#6f859a;
+    color:#fff;
+}
 
 
 
