@@ -99,12 +99,12 @@ textarea {
 html, body{
     height:100%;
     background: #ff9167;
-    animation: background-animation 25s infinite;
+    animation: background-animation 35s infinite;
     background-size:cover;
     background-repeat:repeat;
 }
 .st0{
-    animation: fill-animation 7s infinite;
+    animation: fill-animation 15s infinite;
 }
 body, p{
     font-family: 'Jost', sans-serif;
