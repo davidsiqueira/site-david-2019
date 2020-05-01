@@ -103,7 +103,7 @@ html, body, .presentation.container{
     background: -webkit-linear-gradient(45deg, #e6d139 0%,#e6d139 100%);
     background: linear-gradient(45deg, #e6d139 0%,#e6d139 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf0f7', endColorstr='#ffe6d8',GradientType=1 );
-    background-size:100% 100%;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 
