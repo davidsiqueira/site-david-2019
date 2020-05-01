@@ -96,7 +96,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-html{
+html, body{
     height:100%;
     background: #e6d139;
     background: -moz-linear-gradient(45deg, #e6d139 0%,#e6d139 100%);
@@ -136,7 +136,7 @@ h2{
 
 .contactLinks a{
     display:block;
-    margin:4px;
+    margin:8px;
     color: #000;
     text-decoration: none;
     background-color: #fff;
@@ -177,11 +177,11 @@ h2{
 
 }
 .contactLinks a:hover::before{
-    margin:-8px 8px;
+    margin:-4px 4px;
   
 }
 .contactLinks a:hover:after{
-   margin:8px -8px;
+   margin:4px -4px;
   
 }
 .contactLinks a:hover{
