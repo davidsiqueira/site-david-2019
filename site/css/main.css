@@ -99,11 +99,13 @@ textarea {
 html, body{
     height:100%;
     background: #ff9167;
-    animation: background-animation 15s infinite;
+    animation: background-animation 25s infinite;
     background-size:cover;
     background-repeat:repeat;
 }
-
+.st0{
+    animation: fill-animation 7s infinite;
+}
 body, p{
     font-family: 'Jost', sans-serif;
     font-weight:normal;
@@ -199,6 +201,14 @@ h2{
   50% {background: #50d0b8}
   75% {background: #987cef}
   100% {     background: #ff9167; }
+}
+
+@keyframes fill-animation {
+  0%   { fill: #987cef; }
+  25% {fill: #e6d139}
+  50% {fill: #ff9167
+  75% {fill: #50d0b8}}
+  100% {     fill: #987cef; }
 }
 
 
