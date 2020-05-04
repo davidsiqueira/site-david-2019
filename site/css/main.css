@@ -98,8 +98,8 @@ textarea {
    ========================================================================== */
 html, body{
     height:100%;
-    background: #ff9167;
-    animation: background-animation 35s infinite;
+    background: #f1f2f3;
+    /*animation: background-animation 35s infinite;*/
     background-size:cover;
     background-repeat:repeat;
 }
